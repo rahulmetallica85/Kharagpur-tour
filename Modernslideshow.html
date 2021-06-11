@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+      <title>3D slide show</title>
+  <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Demo styles -->
+    <style>
+		
+		*
+		{
+			margin: 0;
+			padding:0;
+		}
+		
+      html,
+  body {
+        
+	  position: relative;
+        height: 100%;
+      }
+
+      body {
+		 
+   
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(248,0,255,0.43) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(248,0,255,0.43) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(248,0,255,0.43) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(248,0,255,0.43) 100%);
+}
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper-container {
+        width: 100%;
+        padding-top: 200px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 380px;
+		  background:#fff;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+		  height:280px;
+      }
+		
+		.swiper-slide .details{
+			box-sizing: border-box;
+			font-size:20px;
+			padding:20px;
+			
+		}
+		
+		.swiper-slide .details h3 {
+			
+			
+			margin:0px;
+			padding:0px;
+			font-size:20px;
+			text-align:center;
+			line height: 20px;
+			
+		}
+		.swiper-slide .details h3 span{
+			
+		font-size:16px;
+			color:#f44336;
+		
+		}
+		
+		.navigate_right h3 {
+			
+			
+			align-content: center;
+			text-decoration: inherit;
+			text-align: center;
+
+			font-size:20px;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			color:#ff4567;
+		}
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+		  
+        <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/dbsm.jpg"/>
+        </div>
+			<div class="details">
+			<h3>Don Bosco School<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/griffins international.jpg"/>
+        </div>
+			<div class="details">
+			<h3>Griffins International School<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/industry in kgp.jpg"/>
+        </div>
+			<div class="details">
+			<h3> Industrial Park<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/iit kgp.jpg"/>
+        </div>
+			<div class="details">
+			<h3> III Kharagpur<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/kalaikunda.jpeg"/>
+        </div>
+			<div class="details">
+			<h3> Kalaikunda,(KKD)<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/kgp tourist place.jpg"/>
+        </div>
+			<div class="details">
+			<h3>Kurumbara Fort<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/kv kalaikunda.png"/>
+        </div>
+			<div class="details">
+			<h3> KV No 1 Kalaikunda<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/kgp drone view.jpg"/>
+        </div>
+			<div class="details">
+			<h3> KGP Drone View<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/Tata_Hitachi_Kharagpur.png"/>
+        </div>
+			<div class="details">
+			<h3> TATA Hitachi Kharagpur<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/kv kgp.JPG"/>
+        </div>
+			<div class="details">
+			<h3> KV NO2 Kharagpur<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/twenty seven.jpg"/>
+        </div>
+			<div class="details">
+			<h3> 24/7 restaurant highway<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		    <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/bombay cinema hall.jpg"/>
+        </div>
+			<div class="details">
+			<h3> Bombay Cinema Hall<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		   <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/kgp jagannath mandir.jpg"/>
+        </div>
+			<div class="details">
+			<h3> Jagannath Temple<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/tata bearings.webp"/>
+        </div>
+			<div class="details">
+			<h3>Tata Bearing Kharagpur<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		  
+		  <div class="swiper-slide">
+			<div class="imgBx">
+          <img src="images/industry in kgp.jpg"/>
+        </div>
+			<div class="details">
+			<h3> Vidyasagar Industrial Belt<br><span>Kharagpur Lover</span></h3>
+			</div>
+			</div>
+		</div>
+	 
+      <div class="swiper-pagination">
+		  </div>
+
+	   </div>
+	  
+	 
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 60,
+          stretch: 0,
+          depth: 500,
+          modifier: 2,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+	   <div class="navigate_right">
+	  
+	  <h3> Swipe towards right</h3>
+	  </div>
+  </body>
+	 
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kharagpur detour</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.slider.min.css" rel="stylesheet" type="text/css">
+	<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+	<script src="jQueryAssets/jquery.ui-1.10.4.slider.min.js"></script>
+	<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+    </script>
+</head>
+	
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="index.html">Kharagpur de'tour</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+  	    <ul class="navbar-nav mr-auto">
+  	      
+  	      <li class="nav-item"> <a class="nav-link" href="About_us.html"><em>About Us</em></a></li>
+  	      <li class="nav-item"> <a class="nav-link" href="Services.html"><em>Services</em></a></li>
+  	      <li class="nav-item"> <a class="nav-link" href="Gallery.html"><em>Gallery</em></a></li>
+  	      <li class="nav-item"> <a class="nav-link" href="Contact_us.html"><em>Contact Us</em></a></li>
+  	      <li class="nav-item"> <a class="nav-link" href="Modernslideshow.html"><em>3DSlideshow</em></a></li>
+  	    </ul>
+</div>
+</nav>
+<!-- body code goes here -->
+	  <div id="Slider1">
+		<div class="gallery">
+		
+			<div class="slider">
+		<ul>
+		
+			<li> <img class="slides" src="images/baskin robins.webp" width="300px" height="250px" alt="img1" /> </li>
+			
+		<li><img class="slides" src="images/cur 9 cafe.jpg" width="300px" height="250px" alt="img2"/></li> 
+			
+		 <li><img class="slides"  src="images/dominos pizza.jpg" width="300px" height="250px" alt="img3" /></li>
+
+		 <li><img class="slides" src="images/hello crunch.jpg" width="300px" height="250px" alt="img4"/></li>
+
+		 <li><img class="slides" src="images/hotel greenland.webp" width="300px" height="250px" alt="img5"/></li>
+
+		 <li><img class="slides" src="images/kharagpur subway.jpg" width="300px" height="250px" alt="img6"/></li>
+
+		 <li><img class="slides" src="images/rest-1.JPG" width="300px" height="250px" alt="img7"/></li>
+
+		<li> <img class="slides" src="images/rest 7.webp" width="300px" height="250px" alt="img8"/></li>
+
+		 <li><img class="slides" src="images/rest-3.jpg" width="300px" height="250px" alt="img9"/></li>
+
+		 <li><img class="slides" src="images/rest-4.jpg" width="300px" height="250px" alt="img10"/></li>
+
+		<li> <img class="slides"  src="images/rest5.webp" width="300px" height="250px" alt="img11"/></li>
+
+		 <li><img class="slides"  src="images/scrummy-s-inda-kharagpur-pizza-outlets-2h0s553.webp" width="300px" height="250px" alt="img12"></li>
+
+	   <li><img class="slides" src="images/shibani rest.jpg" width="300px" height="250px" alt="img13"/></li>
+
+		<li><img class="slides" src="images/Taaz-Biryani-Kharagpur.jpg" width="300px" height="250px" alt="img14"/></li>
+
+         <li><img class="slides" src="images/restuarant- home.jpg" width="300px" height="250px" alt="img15"/></li>
+
+		 <li><img class="slides" src="images/waldorf rest kgp.jpg" width="300px" height="250px" alt="img16"/></li>
+
+		<li> <img class="slides" src="images/the prince rest.jpg" width="300px" height="250px" alt="img17"/></li>
+
+		 <li><img class="slides" src="images/twenty seven.jpg" width="300px" height="250px" alt="img18"/></li>
+
+		 <li><img class="slides" src="images/rest6.webp" width="300px" height="250px" alt="img19"/></li>
+
+		 <li><img class="slides" src="images/capsicum rest.jpg" width="300px" height="250px" alt="img20"/></li>
+			
+				</ul>
+			</div>
+				
+			<div id="slider-nav">
+				<button data-dir="prev">Previous</button>
+				<button data-dir="next" style="float:right;">Next</button>
+			</div>
+		</div>
+	  </div>
+		  
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->&nbsp;&nbsp;&nbsp;
+	&nbsp;&nbsp;
+	  
+	  
+	
+		
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	  <script src="js/simpleSliderScript.js"></script>
+	  <script>
+	  
+	  jQuery(document).ready(function ($) {
+				// creating a container variable to hold the 'UL' elements. It uses method chaining.
+				var container=$('div.slider')
+											.css('overflow','hidden')
+											.children('ul');
+				
+				/* 
+				On the event of mouse-hover, 
+					i) Change the visibility of Button Controls.
+					ii) SET/RESET the "intv" variable to switch between AutoSlider and Stop mode.
+				*/
+				$('.gallery').hover(function( e ){
+					$('#slider-nav').toggle();
+					return e.type=='mouseenter'?clearInterval(intv):autoSlider();
+				});
+				
+				// Creating the 'slider' instance which will set initial parameters for the Slider.
+				var sliderobj= new slider(container,$('#slider-nav'));
+				/*
+				This will trigger the 'setCurrentPos' and 'transition' methods on click of any button
+				 "data-dir" attribute associated with the button will determine the direction of sliding.
+				*/
+				sliderobj.nav.find('button').on('click', function(){
+					sliderobj.setCurrentPos($(this).data('dir'));
+					sliderobj.transition();
+				});
+				
+				autoSlider(); // Calling autoSlider() method on Page Load.
+				
+				/* 
+				This function will initialize the interval variable which will cause execution of the inner function after every 2 seconds automatically.
+				*/
+				function autoSlider()
+				{
+					return intv = setInterval(function(){
+						sliderobj.setCurrentPos('next');
+						sliderobj.transition();
+					}, 2000);
+				}
+				
+			});
+		</script>
+	  
+	  
+	
+	
+		<br>
+  <input type="datetime-local" name="datetime-local" id="datetime-local">
+	  
+  <script type="text/javascript">
+	  
+	  timer();
+		 function timer(){
+ var currentTime = new Date()
+var hours = datetime-local.getHours()
+var minutes = datetime-local.getMinutes()
+var sec = datetime-local.getSeconds()
+if (minutes < 10){
+    minutes = "0" + minutes
+}
+if (sec < 10){
+    sec = "0" + sec
+}
+var t_str = hours + ":" + minutes + ":" + sec + " ";
+if(hours > 11){
+    t_str += "PM";
+} else {
+   t_str += "AM";
+}
+ document.getElementById('time_span').innerHTML = t_str;
+ setTimeout(timer,1000);
+}
+	  
+	  </script>
+<br>
+<h3 align="center">Restuarants in kharagpur</h3>
+<br>
+	  <article>Some brief facts about kharagpur eateries</article>
+	  <p>Kharagpur possess a well defined and organised chain of restuarants and road side eateries whihc has served kgpians to their fullest. Some food chains really serves delicious and multicultureal crusines at a pocket friendly price. 
+	  Some of the top restuarants and eateries are given above to soothe your taste buds. From indian ,south indian to fast food and continental Kharagpur has served its people with the most deligently.Some famous dine in likes waldrof, Wonder Inn, Curry room etc really have diversified themselves according to the need of the hour and customer's satisfraction.
+	  Its worthy mentioning the road side takeaways' also like hello crunch , fast food junctions etc who has theirt local customers as well. With the influx of immegrants coming from different ethinic backgrounds Kharagpur has it for all!!!!! :) </p>
+<br>
+	  <br>
+     <br>
+	  
+	  <br>
+<br>
+  <br>
+	  
+	  <br>
+<br>
+	  
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+  <div id="chef" align="center">
+	  
+	  <img src="images/chefs image.jpg" alt="chef" width="300px" height="300px"/>
+	  
+	  </div>
+	<br>
+	  
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	
+  
+  	<footer align="right"><em>&copy;Copyright content. All rights reserved to Rahul Praharaj 2021</em>
+	  </footer>
+
+	</body>
+</html>

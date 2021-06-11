@@ -1,0 +1,13 @@
+/*! jQuery UI - v1.10.4 - 2014-04-02
+* http://jqueryui.com
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-{position:relative;text-align:left}.ui- .ui--handle{position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default}.ui- .ui--range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;background-position:0 0}.ui-.ui-state-disabled .ui--handle,.ui-.ui-state-disabled .ui--range{filter:inherit}.ui--horizontal{height:.8em}.ui--horizontal .ui--handle{top:-.3em;margin-left:-.6em}.ui--horizontal .ui--range{top:0;height:100%}.ui--horizontal .ui--range-min{left:0}.ui--horizontal .ui--range-max{right:0}.ui--vertical{width:.8em;height:100px}.ui--vertical .ui--handle{left:-.3em;margin-left:0;margin-bottom:-.6em}.ui--vertical .ui--range{left:0;width:100%}.ui--vertical .ui--range-min{bottom:0}.ui--vertical .ui--range-max{top:0}
+@media screen{
+#1 {
+    background-color: #BC47C2;
+    width: 1000px;
+    height: 500px;
+}
+
+}
